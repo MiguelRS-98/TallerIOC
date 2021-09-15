@@ -19,19 +19,19 @@ Para este taller desarrolle un prototipo mínimo que demuestre capcidades reflex
 
 ### Descripción de la aplicación
 #### Package: App - App.java
-![Diagrama Clases](Image/DiagramaClase1.jpg)<br>
+![Diagrama Clases](Image/Image1.jpg)<br>
 Esta clase inicia la ejecución de la aplicación, iniciando los servicios de ___Servidor___ y ___Spring___.
 #### Package: Controller - Controller.java
-![Diagrama Clases](Image/DiagramaClase2.jpg)<br>
+![Diagrama Clases](Image/Image2.jpg)<br>
 Esta clase inicia los controles del valor del ___Spring___, con lo cual relaciona peticiones de tipo ___http___ permitiendo controlar y agrupar las ___URLs___.
 #### Package: Controller - GetMapping.java
-![Diagrama Clases](Image/DiagramaClase3.jpg)<br>
+![Diagrama Clases](Image/Image2.jpg)<br>
 Esta interface que utilizamos para procesar las solicitudes de la obtencion del ___RequestMapping___, con lo cual se puedo obtener las peticiones de tipo ___http___.
 #### Package: Spring - Spring.java
-![Diagrama Clases](Image/DiagramaClase4.jpg)<br>
+![Diagrama Clases](Image/Image3.jpg)<br>
 Esta clase ayuda a manejar el ___Spring___ para crear la aplicación complementado con las clases ___Java___, usando las librerias y utilidades que permiter realizar el proceso del ___framework___.
 #### Package: HttpServer - HttpServer.java
-![Diagrama Clases](Image/DiagramaClase5.jpg)<br>
+![Diagrama Clases](Image/Image4.jpg)<br>
 Esta clase ejerce el proceso del ___Servidor HTTP___ con el cual se procesa la aplicación del servidor y poder realizar las conexiones con el cliente, generando una respuesta al cliente.
 
 ## JavaDoc:
